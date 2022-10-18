@@ -4,7 +4,7 @@
     --cor0: yellow;
     --cor1: rgb(255, 255, 160);
     --cor2: black;
-    --cor3: white;
+    --cor3: rgb(242, 242, 248);
      
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
@@ -40,4 +40,140 @@ header {
     min-height: 200px;
     text-align: center;
     padding-top: 0px;
+}
+
+.imgfundo{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.conteudo{
+    padding: 3px;
+    color: rgb(245, 243, 243);
+}
+
+body2{
+    font-family: "Poppins, sans-serif";
+    background-color: #f8f4f4;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardgreen{
+    background-color: black;
+    z-index: 1;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(240, 225, 20);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.imgcard1{
+    float: right;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.cardblue{
+    background-color: black;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(240, 225, 20);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+
+.imgcard2{
+    float: right;
+    max-width: 550px;
+    max-height: 100px;
+}
+
+.cardyelow{
+    background-color: black;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(240, 225, 20);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.imgcard3{
+    float: right;
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.cardpink{
+    background-color: black;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(240, 225, 20);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.imgcard4{
+    float: right;
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.cardblack{
+    background-color: black;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(240, 225, 20);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.imgcard5{
+    float: right;
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.cardroxo{
+    background-color: black;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(240, 225, 20);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.imgcard6{
+    float: right;
+    max-width: 1000px;
+    max-height: 100px;
+}
+
+.direitos{
+    color: black;
+    position: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
